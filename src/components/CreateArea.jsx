@@ -2,10 +2,15 @@
 function CreateArea() {
   return(
     <div className="container">
-      <div className="text-area">
-        <p>Note Title</p>
-        <p>Note Content</p>
-      </div>
+        <form className="text-area">
+          <input 
+            name="title" 
+            placeholder="Title"
+          />
+          <textarea
+            placeholder="Note Content"
+          />
+        </form>
     </div>
 )}
 
