@@ -13,7 +13,7 @@ function CreateArea() {
             placeholder="Note Content"
             rows="3"
           />
-          <Fab>
+          <Fab className="fab-button">
             <AddIcon />
           </Fab>
         </form>

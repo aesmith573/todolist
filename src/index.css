@@ -43,7 +43,14 @@ textarea {
 }
 
 form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
   border: rgb(155, 180, 216) 5px solid;
   border-radius: 10px;
   padding: 15px;
+}
+
+form .fab-button {
+  align-self: flex-end;
 }
