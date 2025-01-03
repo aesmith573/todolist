@@ -14,3 +14,15 @@
 .edit-icon {
   margin: 0px 5px;
 }
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+}
+
+.text-area {
+  display: flex;
+  flex-direction: column;
+}
