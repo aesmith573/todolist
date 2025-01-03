@@ -1,4 +1,5 @@
 import AddIcon from "@mui/icons-material/Add";
+import { Fab } from "@mui/material";
 
 function CreateArea() {
   return(
@@ -12,7 +13,9 @@ function CreateArea() {
             placeholder="Note Content"
             rows="3"
           />
-          <AddIcon />
+          <Fab>
+            <AddIcon />
+          </Fab>
         </form>
     </div>
 )}
