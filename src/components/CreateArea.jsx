@@ -10,6 +10,7 @@ function CreateArea() {
           />
           <textarea
             placeholder="Note Content"
+            rows="3"
           />
           <AddIcon />
         </form>
