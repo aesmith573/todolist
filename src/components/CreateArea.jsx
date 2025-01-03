@@ -1,3 +1,4 @@
+import AddIcon from "@mui/icons-material/Add";
 
 function CreateArea() {
   return(
@@ -10,6 +11,7 @@ function CreateArea() {
           <textarea
             placeholder="Note Content"
           />
+          <AddIcon />
         </form>
     </div>
 )}
