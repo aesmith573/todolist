@@ -1,7 +1,7 @@
 
 function Header() {
   return(<>
-    <header>
+    <header className="todo-title">
       <h1>Andy's Todo List!</h1>
     </header>
   </>)
