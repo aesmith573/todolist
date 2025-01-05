@@ -6,8 +6,10 @@ import { useState } from 'react';
 function App() {
   const [notes, setNotes] = useState([]);
 
-  function addNote() {
-
+  function addNote(newNote) {
+    setNotes(prevValue => {
+      
+    })
   }
 
   return (
